@@ -100,13 +100,13 @@ function MyApp({ Component, pageProps }) {
           <MobileMenu open={MobileMenuIsOpen}>
             <ul>
               <li>
-                <NavItem href="#">Marketplace</NavItem>
+                <NavItem href="#">Market</NavItem>
               </li>
               <li>
                 <NavItem href="#">Drops</NavItem>
               </li>
               <li>
-                <NavItem href="#">Brands</NavItem>
+                <NavItem href="#">About Us</NavItem>
               </li>
               <li>
                 <Button>Create</Button>

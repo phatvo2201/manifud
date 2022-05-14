@@ -116,8 +116,8 @@ export default function Header({ mobileMenu }) {
         )}
       </MenuIcon>
       <Center>
-        <Logo src="/images/cryptoLogo.png" />
-        <LogoText href="#">NFT</LogoText>
+        <Logo src="/images/Manifood.png" />
+        <LogoText href="#">MANIFOOD</LogoText>
         <SearchBar />
         <Nav>
           <ul>

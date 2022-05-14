@@ -38,11 +38,11 @@ export default function OwnershipItem() {
   return (
     <OwnershipItemEl>
       <AvatarEl>
-        <Image src="/images/avatar/deathrow.jpg" width="45px" height="45px" />
+        <Image src="/images/avatar/image-5.png" width="45px" height="45px" />
       </AvatarEl>
       <Info>
-        <OwnerEl>Owner</OwnerEl>
-        <UsernameEl>DeathRow</UsernameEl>
+        <OwnerEl>Approve</OwnerEl>
+        <UsernameEl>Phat2B</UsernameEl>
       </Info>
       <AddressEl>
         cro1kgagcas60u...

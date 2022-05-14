@@ -63,11 +63,11 @@ export default function BidSticky() {
     <BidStickyEl>
       <LeftSection>
         <ThumbEl>
-          <Image src="/images/nft/bking.png" width="80px" height="80px" />
+          <Image src="/images/vegan/annie-spratt-m1t-RJ1iCIU-unsplash.jpg" width="80px" height="80px" />
         </ThumbEl>
         <Info>
-          <EditionEl>Edition 17 of 371</EditionEl>
-          <Title>KING BITCOIN</Title>
+          <EditionEl>Selling 17 of 150 Kg</EditionEl>
+          <Title>Fresh Vegetable</Title>
         </Info>
       </LeftSection>
       <RightSection>

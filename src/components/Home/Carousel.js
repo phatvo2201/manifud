@@ -120,7 +120,7 @@ export default function Carousel() {
   return (
     <CarouselEl>
       <Button>Best Selling</Button>
-      <Title>Top Creators</Title>
+      <Title>Top Seller</Title>
       <Controls>
         <CtrlBtn
           active={ScrollInd === "e" || ScrollInd === "m"}
@@ -162,12 +162,12 @@ export default function Carousel() {
                 <Item>
                   <Avatar>
                     <Image
-                      src="/images/avatar/ugonzo.jpg"
+                      src="/images/avatar/8.jpg"
                       height="120"
                       width="120"
                     />
                   </Avatar>
-                  <Name>Ugonzo Art</Name>
+                  <Name>Post Malone</Name>
                   <BottomSection>
                     <Badge number={i} />
                     <Amount>$400,000</Amount>

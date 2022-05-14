@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <HomeEl>
       <Head>
-        <title>Crypto.con NFT Marketplace</title>
+        <title>Manifood.com Vagetable Marketplace</title>
         <meta
           name="description"
           content="Cleaned create-next-app including styled-components and configured theme"

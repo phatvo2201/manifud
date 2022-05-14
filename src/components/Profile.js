@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 import { Colors, Devices } from "./Theme";
-import { BsInstagram, BsFillPatchCheckFill } from "react-icons/bs";
+import { BsInstagram, BsFillPatchCheckFill , BsCartPlus} from "react-icons/bs";
 import { GrTwitter, GtTwitter } from "react-icons/gr";
 import NFTCard from "./styled/NFTCard.styled";
 import Grid from "./styled/Grid.styled";
@@ -136,11 +136,11 @@ export default function Profile({ username = "newk3d" }) {
   return (
     <ProfileEl>
       <Head>
-        <title>Crypto.com NFT Markeplace - {username}</title>
+        <title>Manifood Markeplace - {username}</title>
       </Head>
       <Cover>
         <Image
-          src="/images/cover/newk3d.png"
+          src="/images/cover/2.jpg"
           //   width="1440"
           //   height="480"
           layout="fill"
@@ -156,14 +156,20 @@ export default function Profile({ username = "newk3d" }) {
               //   height="150"
             />
           </Avatar>
-          <Name>newk3d</Name>
+          <Name>PhatBB</Name>
           <Username>
             <BsFillPatchCheckFill />
-            newk3d
+            Phat2B
           </Username>
+          <Username>
+          <BsCartPlus />
+            Ba Chieu Market
+          </Username>
+
           <Bio>
-            {`Newk3d is a Norwegian 3D artist with a passion for digital art and creating in general. His style consists of flashy iridescent metals that catches the eye. He is influenced by a wide array of topics, from fantasy to cyberpunk.
-He has been pushing himself creatively by making new art every single day for over 600 days.`}
+            {`About
+I am a Back End developer with industry experience building websites and web applications. I specialize in Golang and have professional experience working with Django(python).
+.`}
           </Bio>
           <Socials>
             <a href="#">

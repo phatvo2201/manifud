@@ -7,7 +7,7 @@ const NewsLetterEl = styled.article`
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background: url("/images/subscribe.png");
+  background: url("/images/9.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 6rem 1rem;
@@ -70,7 +70,7 @@ export default function NewsLetter() {
   return (
     <NewsLetterEl>
       <Title>Never miss a drop</Title>
-      <Sub>Subscribe for the latest news, drops & collectibles</Sub>
+      <Sub>Subscribe for noti about what you care</Sub>
       <Input>
         <input type="email" placeholder="Email" />
         <Btn>Subscribe</Btn>

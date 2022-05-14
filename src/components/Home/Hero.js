@@ -131,28 +131,28 @@ const Items = [
     Id: 1,
     Badge: "UPCOMING",
     Date: "Tue, Feb 01",
-    Title: "UFC 271",
-    Author: "UFC",
+    Title: "Upcoming Launch",
+    Author: "PHAT BB",
 
-    ImageSrc: "/images/slider/2.png",
+    ImageSrc: "/images/slider/1.jpg",
   },
   {
     Id: 2,
     Badge: "SOLD OUT",
     Date: "Tue, Feb 01",
     Title: "Slide 2",
-    Author: "UFC",
+    Author: "PhatBB",
 
-    ImageSrc: "/images/slider/3.jpeg",
+    ImageSrc: "/images/slider/2.jpg",
   },
   {
     Id: 3,
     Badge: "LIVE NOW",
     Date: "Tue, Feb 01",
     Title: "Slide 3",
-    Author: "UFC",
+    Author: "PhatBB",
 
-    ImageSrc: "/images/slider/4.jpg",
+    ImageSrc: "/images/slider/3.jpg",
   },
 ];
 
@@ -164,8 +164,8 @@ export default function Hero() {
   return (
     <HeroEl>
       <Title>
-        <Heading>Buy, sell, and showcase NFTs</Heading>
-        <Sub>from leading creators and brands</Sub>
+        <Heading>Buy, sell, and showcase Vegetable for Everyone</Heading>
+        <Sub>FROM MANIFOOD WITH LOVE</Sub>
       </Title>
       <Slider>
         <InfoContainer>

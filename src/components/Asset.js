@@ -153,19 +153,19 @@ const AllTabs = [
 export default function Asset() {
   return (
     <AssetEl>
-      <Head>NFT ITEM</Head>
+      <Head>VEGAN ITEM</Head>
       <SectionContainer>
         <LeftSection>
           <ImageEl>
             <Image
-              src="/images/nft/bking.png"
+              src="/images/vegan/annie-spratt-m1t-RJ1iCIU-unsplash.jpg"
               layout="responsive"
               width="1000px"
               height="1000px"
             />
           </ImageEl>
           <ChainLink>
-            View Crypto.org Chain details <HiOutlineExternalLink />
+            View Market Item details <HiOutlineExternalLink />
           </ChainLink>
         </LeftSection>
         <RightSection>
@@ -195,23 +195,21 @@ export default function Asset() {
               <Image src="/images/avatar/newk3d.png" width="50" height="50" />
             </AvatarEl>
             <span>
-              <CreatorLabel>Creator</CreatorLabel>
-              <UsernameEl>newk3d</UsernameEl>
+              <CreatorLabel>Seller</CreatorLabel>
+              <UsernameEl>Phat2B</UsernameEl>
             </span>
           </AuthorContainer>
-          <EditionEl>371 Editions Minted</EditionEl>
+          <EditionEl>100kg Selling</EditionEl>
           <span>
-            <Title>KING BITCOIN</Title>
+            <Title>Fresh Vegetable</Title>
             <MarketPlace>Marketplace</MarketPlace>
           </span>
-          <AcOfferLabel>Accepting Offers</AcOfferLabel>
+          <AcOfferLabel>Description :</AcOfferLabel>
           <Des>
-            King Bitcoin is the oldest and wisest of the cryptoskeletons. When
-            all hope is lost the others look to him for guidance into the lands
-            of unlimited profit.
+          Vegetables are parts of plants that are consumed by humans or other animals as food. The original meaning is still commonly used and is applied to plants
           </Des>
           <TagContainer>
-            <Tag>Crypto</Tag>
+            <Tag>Rau Xanh</Tag>
           </TagContainer>
           <EditionSelector />
           <Tabs mt="1rem" data={AllTabs} />

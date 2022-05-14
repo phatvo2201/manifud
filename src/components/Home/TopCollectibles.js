@@ -63,10 +63,14 @@ const ShowMore = styled.button`
 export default function TopCollectibles() {
   return (
     <TopCollectiblesEl>
-      <Title>Top Collectibles</Title>
+      <Title>Top Items</Title>
       <TopSection>
         <Sort>Sales Volume</Sort>
+        <div  style={{display: "flex"}}>
         <Date>Today</Date>
+        <Date>Last Week</Date>
+        <Date>Last Month</Date>
+        </div>
       </TopSection>
       <Grid>
         {NFTs.map((nft) => {
