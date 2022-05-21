@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { BsChevronUp, BsChevronDown, BsChevronRight } from "react-icons/bs";
+import { BsChevronUp, BsChevronDown, BsChevronRight , BsPlusCircle , BsFillBagPlusFill,BsFillBagDashFill } from "react-icons/bs";
 import { Colors } from "../Theme";
 
 const EditionSelectorEl = styled.article`
@@ -53,12 +53,18 @@ export default function EditionSelector() {
     <EditionSelectorEl>
       <BtnContainer>
         <TopBtn>
-          <BsChevronUp />
+          <BsFillBagPlusFill />
         </TopBtn>
         <BottomBtn>
-          <BsChevronDown />
+          <BsFillBagDashFill />
         </BottomBtn>
       </BtnContainer>
+      <EdInfo>
+        <EditionLabel>20 Kg</EditionLabel>
+      </EdInfo>
+      <br>
+      </br>
+      
       <EdInfo>
         <EditionLabel>BA CHIEU MARKET</EditionLabel>
         <MintDate>(188 Nguyen Xi)</MintDate>
@@ -66,6 +72,14 @@ export default function EditionSelector() {
       <SelectEdition href="#">
         Select Market <BsChevronRight />
       </SelectEdition>
+      <BtnContainer>
+        <TopBtn>
+          <BsChevronUp />
+        </TopBtn>
+        <BottomBtn>
+          <BsChevronDown />
+        </BottomBtn>
+      </BtnContainer>
     </EditionSelectorEl>
   );
 }
